@@ -1,0 +1,16 @@
+{
+	"auth": {
+		"ngappsyncchat92875f9f": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
+	},
+	"analytics": {
+		"ngappsyncchat": {
+			"service": "Pinpoint",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}

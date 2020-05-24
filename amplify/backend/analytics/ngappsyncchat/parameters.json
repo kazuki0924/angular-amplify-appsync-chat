@@ -1,0 +1,21 @@
+{
+    "appName": "ngappsyncchat",
+    "roleName": "pinpointLambdaRoled58d51f0",
+    "cloudformationPolicyName": "cloudformationPolicyd58d51f0",
+    "cloudWatchPolicyName": "cloudWatchPolicyd58d51f0",
+    "pinpointPolicyName": "pinpointPolicyd58d51f0",
+    "authPolicyName": "pinpoint_amplify_d58d51f0",
+    "unauthPolicyName": "pinpoint_amplify_d58d51f0",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}
